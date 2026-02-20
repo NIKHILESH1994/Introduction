@@ -125,3 +125,50 @@ footer {
     transform: translateY(-5px);
     box-shadow: 0 0 20px rgba(56,189,248,0.3);
 }
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    background: linear-gradient(90deg, #38bdf8, #6366f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #cbd5e1;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+}
+
+.hero-buttons .secondary {
+    background: #1e293b;
+    color: #38bdf8;
+    margin-left: 15px;
+}
+
+.hero-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
