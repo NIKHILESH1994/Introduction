@@ -94,4 +94,34 @@ footer {
     padding: 20px;
     background: #0b1120;
     margin-top: 50px;
+
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.image-card {
+    background: #1e293b;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.image-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.image-card p {
+    padding: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.image-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(56,189,248,0.3);
 }
